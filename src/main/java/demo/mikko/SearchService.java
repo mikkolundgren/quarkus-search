@@ -22,7 +22,7 @@ import org.apache.lucene.store.FSDirectory;
 @ApplicationScoped
 public class SearchService {
     
-    String apidocIndexPath = "apidocsindex/";
+    String apidocIndexPath = "index/";
     String field = "contents";
     DirectoryReader reader;
     IndexSearcher searcher;
